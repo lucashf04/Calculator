@@ -10,14 +10,14 @@ class Main {
     Scanner input = new Scanner(System.in);
 
     // ask users to enter operator
-    System.out.println("Choose an operator: +, -, *, or /");
+    System.out.println("Escolha um operador: +, -, *, or /");
     operator = input.next().charAt(0);
 
     // ask users to enter numbers
-    System.out.println("Enter first number");
+    System.out.println("Digite o primeiro número");
     number1 = input.nextDouble();
 
-    System.out.println("Enter second number");
+    System.out.println("Digite o segundo número");
     number2 = input.nextDouble();
 
     switch (operator) {
@@ -47,7 +47,7 @@ class Main {
         break;
 
       default:
-        System.out.println("Invalid operator!");
+        System.out.println("Operador inválido!");
         break;
     }
 
